@@ -23,7 +23,6 @@ function printMyName(name) {
 printMyName("Quang handsome");
 
 // Arrow Functions
-
 const inTen = (ten) => {
   console.log(ten);
 };
@@ -31,3 +30,30 @@ inTen("Quang dep trai");
 
 const multiply = (number) => number * 2;
 console.log(multiply(4));
+
+// Exports and Imports (Modules)
+
+// Class in JS
+// Contructor Functions
+
+class Human {
+  constructor() {
+    this.gender = "male";
+  }
+  printGender() {
+    console.log(this.gender);
+  }
+}
+class Person extends Human {
+  constructor() {
+    super();
+    this.name = "Perter";
+  }
+  printMyName() {
+    console.log(this.name);
+  }
+}
+
+const person = new Person();
+person.printMyName();
+person.printGender();
