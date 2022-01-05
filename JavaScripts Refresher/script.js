@@ -48,6 +48,7 @@ class Person extends Human {
   constructor() {
     super();
     this.name = "Perter";
+    this.gender = "female";
   }
   printMyName() {
     console.log(this.name);
@@ -57,3 +58,30 @@ class Person extends Human {
 const person = new Person();
 person.printMyName();
 person.printGender();
+
+// Spread and Rest Operator
+// 1. Spread
+// Array
+const numbers = [1, 2, 3];
+const newNumbers = [...numbers, 4, 5];
+console.log(newNumbers);
+
+// Object
+const dog = {
+  name: "Lu",
+  color: "red",
+};
+
+const newDog = {
+  ...dog,
+  age: 2,
+};
+console.log(newDog);
+
+// Rest
+
+const filter = (...args) => {
+  return args.filter((el) => el === 1);
+};
+
+console.log(filter(1, 2, 3));
