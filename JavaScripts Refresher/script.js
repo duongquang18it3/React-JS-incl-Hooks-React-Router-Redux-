@@ -1,4 +1,4 @@
-//1.var,let and const
+/* //1.var,let and const
 var namer = "Quang";
 console.log(namer);
 namer = "Thu";
@@ -84,4 +84,26 @@ const filter = (...args) => {
   return args.filter((el) => el === 1);
 };
 
-console.log(filter(1, 2, 3));
+console.log(filter(1, 2, 3)); */
+
+// Destructuring
+// Array
+const numbers = [1, 2, 3];
+const [num1, , num3] = numbers;
+console.log(num1, num3);
+
+// Object
+// Ex1:
+const dog = {
+  nameDog: "Thai",
+  age: "12",
+};
+const { nameDog } = dog;
+console.log(nameDog);
+
+//Ex2:
+const o = { p: 42, q: true };
+const { p: foo, q: bar } = o;
+console.log(foo, bar);
+
+
