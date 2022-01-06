@@ -86,7 +86,7 @@ const filter = (...args) => {
 
 console.log(filter(1, 2, 3)); */
 
-// Destructuring
+/* // Destructuring
 // Array
 const numbers = [1, 2, 3];
 const [num1, , num3] = numbers;
@@ -104,6 +104,34 @@ console.log(nameDog);
 //Ex2:
 const o = { p: 42, q: true };
 const { p: foo, q: bar } = o;
-console.log(foo, bar);
+console.log(foo, bar); */
+
+// Primitive type
+/* 
+let number = 1;
+let num2 = number;
+number = 4;
+console.log(num2);
+
+// Object & Array
+
+const person = {
+  names: "Quang",
+};
+
+const secondsPerson = person;
+person.names = "Thu";
+console.log(secondsPerson); */
+
+// If you copy object you may use spread operator ({...})
+/* 
+const person = {
+  names: "Quang",
+};
+
+const secondsPerson = { ...person };
+person.names = "Thu";
+console.log(secondsPerson); */
+
 
 
