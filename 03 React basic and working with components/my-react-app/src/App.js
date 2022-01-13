@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React To Create A React App
+          Learn React To Create A React App Tran Duong Quang
         </a>
       </header>
     </div>
