@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          I am testing commit from local changes
+          I am commit changes to master
         </a>
       </header>
     </div>
