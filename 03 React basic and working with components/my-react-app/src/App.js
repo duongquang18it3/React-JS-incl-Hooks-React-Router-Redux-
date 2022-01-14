@@ -15,11 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-<<<<<<< HEAD
-          Helo test 8
-=======
-          I am commit changes to master
->>>>>>> master
+          Helo test 9
         </a>
       </header>
     </div>
