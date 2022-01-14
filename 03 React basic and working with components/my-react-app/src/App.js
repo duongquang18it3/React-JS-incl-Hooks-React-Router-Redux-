@@ -15,9 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          I am commit changes to master
-          ok
-          
+          Day là chinh sua tren 03-React-basic-and-working-with-components
         </a>
       </header>
     </div>
