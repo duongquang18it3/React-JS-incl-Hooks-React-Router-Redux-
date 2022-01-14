@@ -15,8 +15,13 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+<<<<<<< HEAD
           Learn React To Create A React App Test tessttttt
           demo
+=======
+          Learn React To Create A React App Test tessttttt sdvsdvdsd srrsvarvese
+          sdgsdv
+>>>>>>> b1022e904e3ea3f6b9248e994b3daf8ea548dc32
         </a>
       </header>
     </div>
