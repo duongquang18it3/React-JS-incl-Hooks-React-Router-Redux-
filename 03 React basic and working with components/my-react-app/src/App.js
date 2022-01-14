@@ -15,8 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React To Create A React App Test tessttttt demoèerferferferfer
-          sfedsvsdcs sdcsdcsdcsdcsdcsdcsdcsdcsdcsdcdscdscsdcscds
+          I am testing commit from local changes
         </a>
       </header>
     </div>
