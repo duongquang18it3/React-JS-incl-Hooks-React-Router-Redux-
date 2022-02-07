@@ -16,6 +16,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Edit on 03-React-basic-and-working-with-components
+          Ỏig
         </a>
       </header>
     </div>
