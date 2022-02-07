@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Day là chinh sua tren 03-React-basic-and-working-with-components
+          Edit on 03-React-basic-and-working-with-components
         </a>
       </header>
     </div>
