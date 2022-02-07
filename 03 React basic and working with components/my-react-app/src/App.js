@@ -15,8 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Edit on 03-React-basic-and-working-with-components
-          Ỏig
+          Edit on 03-React-basic-and-working-with-components Hello
         </a>
       </header>
     </div>
