@@ -1,5 +1,14 @@
+import "./ExpenseItem.css";
 function ExpenseItem() {
-  return <h2> Custom component Expense items !</h2>;
-}   
+  return (
+    <div className="expense-item">
+      <div>Febuary 9th 2022</div>
+      <div className="expense-item__description">
+        <h2>Car Insurance</h2>
+        <div className="expense-item__price">$300.00</div>
+      </div>
+    </div>
+  );
+}
 
 export default ExpenseItem;

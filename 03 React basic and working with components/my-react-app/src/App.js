@@ -6,10 +6,7 @@ function App() {
   // this is regular js code
   return (
     <div>
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <p> This is also visible !</p>
+      <h3> Let's get started !</h3>
       <ExpenseItem></ExpenseItem>
     </div>
   );
