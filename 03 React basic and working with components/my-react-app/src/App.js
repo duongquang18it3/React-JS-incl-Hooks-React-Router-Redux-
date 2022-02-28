@@ -1,5 +1,6 @@
 import React from "react";
 import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 const App = () => {
   /* const para = document.createElement("p");
   para.textContent = "This is also visible ";
@@ -29,7 +30,7 @@ const App = () => {
   ];
   return (
     <div>
-      <h3> Let's get started !</h3>
+      <NewExpense />
       <Expenses item={expenses}></Expenses>
     </div>
   );
