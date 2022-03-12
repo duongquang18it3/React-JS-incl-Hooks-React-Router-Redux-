@@ -53,7 +53,7 @@ const ExpenseForm = (props) => {
       amount: enteredAmount,
       date: enteredDate,
     };
-    //console.log(expenseData);
+
     props.onSaveExpenseData(expenseData);
     // Clear value after summited
     setEnteredTitle("");
